@@ -279,5 +279,5 @@ include_once 'sidebar.php';
 
 
     <!-- Footer Start -->
-   <?php
-   include_once 'footer.php';
+    <?php
+    include_once 'footer.php';
