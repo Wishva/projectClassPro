@@ -13,43 +13,42 @@ include_once 'sidebar.php';
 
 
             <!-- Form Start -->
-            <div class="container-fluid pt-4 pl-5">
+            <div class="container-fluid pt-4 pl-5" >
                 <div class="row g-4">
-                <div class="col-sm-12 col-xl-12">
-                        <div class="bg-secondary rounded h-100 p-4">
-                            <h6 class="mb-4 text-center h3">Employee Registration</h6>
+                <div class="col-sm-12 col-xl-12" >
+                        <div class="bg-secondary rounded h-100 p-4 formBorder">
+                            <p class="mb-4 text-center" style="font-size: 2rem;">Employee Registration</p>
                             <form>
                                 <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">First Name</label>
-                                    <input type="text" class="form-control" id="empFName"
-                                        aria-describedby="emailHelp">
+                                    <label for="empFName" class="form-label whiteFont">First Name</label>
+                                    <input type="text" class="form-control" id="empFName">
                                    <small></small>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Last Name</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="empLName" class="form-label whiteFont">Last Name</label>
+                                    <input type="text" class="form-control" id="empLName">
                                     <small></small>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Email</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="empEmail" class="form-label whiteFont">Email</label>
+                                    <input type="text" class="form-control" id="empEmail">
                                     <small></small>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">Phone Number</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="empPhone" class="form-label whiteFont">Phone Number</label>
+                                    <input type="text" class="form-control" id="empPhone">
                                     <small></small>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputPassword1" class="form-label">NIC</label>
-                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                    <label for="empNIC" class="form-label whiteFont">NIC</label>
+                                    <input type="text" class="form-control" id="empNIC">
                                     <small></small>
                                 
                                 </div>
                                 <div class="mb-3">
-                                <label for="floatingTextarea">Comments</label>
+                                <label for="empAddress" class="whiteFont">Address</label>
                                 <textarea class="form-control" placeholder="Leave a comment here"
-                                    id="floatingTextarea" style="height: 150px;"></textarea>
+                                    id="empAddress" style="height: 150px;"></textarea>
                                 
                                     <small></small>
                                 </div>
