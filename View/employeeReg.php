@@ -11,7 +11,6 @@ include_once 'sidebar.php';
     ?>
     <!-- Navbar End -->
 
-
             <!-- Form Start -->
             <div class="container-fluid pt-4 pl-5" >
                 <div class="row g-4">
@@ -47,9 +46,7 @@ include_once 'sidebar.php';
                                 </div>
                                 <div class="mb-3">
                                 <label for="empAddress" class="whiteFont">Address</label>
-                                <textarea class="form-control" placeholder="Leave a comment here"
-                                    id="empAddress" style="height: 150px;"></textarea>
-                                
+                                <textarea class="form-control" id="empAddress" style="height: 150px;"></textarea>
                                     <small></small>
                                 </div>
                                 <button type="submit" class="btn btn-success" id='btn'>Submit</button>
@@ -60,8 +57,7 @@ include_once 'sidebar.php';
                 </div>
             </div>
             <!-- Form End -->
-
-
+            
            <!-- Footer Start -->
     <?php
     include_once 'footer.php';
