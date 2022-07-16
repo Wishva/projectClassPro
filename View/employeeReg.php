@@ -17,7 +17,7 @@ include_once 'sidebar.php';
                 <div class="col-sm-12 col-xl-12" >
                         <div class="bg-secondary rounded h-100 p-4 formBorder">
                             <p class="mb-4 text-center" style="font-size: 2rem;">Employee Registration</p>
-                            <form>
+                            <form id='empRegForm'>
                                 <div class="mb-3">
                                     <label for="empFName" class="form-label whiteFont">First Name</label>
                                     <input type="text" class="form-control" id="empFName">
