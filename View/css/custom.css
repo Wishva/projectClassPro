@@ -15,4 +15,12 @@
     0% { color: red; }
     50% { color: blue; }
     100% { color: green; }
-  }
+}
+
+.errorField{
+    border:1px solid red;
+}
+
+.errorText{
+    color:red;
+}

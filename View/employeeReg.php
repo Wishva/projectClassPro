@@ -21,7 +21,7 @@ include_once 'sidebar.php';
                                 <div class="mb-3">
                                     <label for="empFName" class="form-label whiteFont">First Name</label>
                                     <input type="text" class="form-control" id="empFName">
-                                   <small></small>
+                                   <small class="errorText" id='empFNameError'></small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="empLName" class="form-label whiteFont">Last Name</label>

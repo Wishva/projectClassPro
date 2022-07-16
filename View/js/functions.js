@@ -9,6 +9,8 @@ $(document).ready(function () {
     let empNic = $("#empNIC");
     let empAddress = $("#empAddress");
 
+    let empFNameError = $("#empFNameError");
+
     $("#empRegForm").submit(function (event) { 
         event.preventDefault();
         
@@ -25,7 +27,15 @@ $(document).ready(function () {
         data:{testData:1,empFirstNameVal:empFirstNameVal,emplaststNameVal:emplaststNameVal, empEmailVal: empEmailVal,
             empPhoneVal:empPhoneVal,empNicVal:empNicVal,empAddressVal:empAddressVal},
         success:function (data) {
-            alert(data);
+           if(data.includes("fnameEmpty"))
+           {
+            empFirstName.addClass('errorField');
+            empFNameError.text('Please fill this field');
+           }else if(data.includes("fnameInvalid"))
+           {
+            empFirstName.addClass('errorField');
+            empFNameError.text('Invalid First Name');
+           }
         }
     });
 

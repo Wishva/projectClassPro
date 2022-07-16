@@ -14,14 +14,31 @@ if(isset($_POST['testData']))
     $empNic = htmlspecialchars($_POST['empNicVal'],ENT_QUOTES);
     $empAddress = htmlspecialchars($_POST['empAddressVal'],ENT_QUOTES);
 
-    echo $empFirstName;
+    //employee first name validation
 
+    if(validateEmptyFiled($empFirstName))
+    {
+        if(!validateName($empFirstName))
+        {
+            echo 'fnameInvalid';
+        }
+    }else
+    {
+        echo 'fnameEmpty';
+    }
 
+    //employee last name validation
 
-
-
-     //employee first name validation
-
+    if(validateEmptyFiled($emplaststName))
+    {
+        if(!validateName($emplaststName))
+        {
+            echo 'lnameInvalid';
+        }
+    }else
+    {
+        echo 'lnameEmpty';
+    }
 
 
 
