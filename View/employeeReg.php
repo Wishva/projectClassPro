@@ -26,31 +26,31 @@ include_once 'sidebar.php';
                                 <div class="mb-3">
                                     <label for="empLName" class="form-label whiteFont">Last Name</label>
                                     <input type="text" class="form-control" id="empLName">
-                                    <small></small>
+                                    <small class="errorText" id='empLNameError'></small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="empEmail" class="form-label whiteFont">Email</label>
                                     <input type="text" class="form-control" id="empEmail">
-                                    <small></small>
+                                    <small class="errorText" id='empEmailError'></small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="empPhone" class="form-label whiteFont">Phone Number</label>
                                     <input type="text" class="form-control" id="empPhone">
-                                    <small></small>
+                                    <small class="errorText" id='empPhoneError'></small>
                                 </div>
                                 <div class="mb-3">
                                     <label for="empNIC" class="form-label whiteFont">NIC</label>
                                     <input type="text" class="form-control" id="empNIC">
-                                    <small></small>
+                                    <small class="errorText" id='empNicError'></small>
                                 
                                 </div>
                                 <div class="mb-3">
                                 <label for="empAddress" class="whiteFont">Address</label>
                                 <textarea class="form-control" id="empAddress" style="height: 150px;"></textarea>
-                                    <small></small>
+                                <small class="errorText" id='empAddrError'></small>
                                 </div>
                                 <button type="submit" class="btn btn-success" id='btn'>Submit</button>
-                                <button type="submit" class="btn btn-primary">Reset</button>
+                                <button type="reset" class="btn btn-primary" id='employeeRegFormReset'>Reset</button>
                             </form>
                         </div>
                     </div>

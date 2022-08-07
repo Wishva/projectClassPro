@@ -1,3 +1,8 @@
+<?php
+    session_start();
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -32,6 +37,9 @@
 
     <!-- Custom Stylesheet -->
     <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet2 -->
+    <link href="css/jquery-confirm.css" rel="stylesheet">
 </head>
 
 <body>

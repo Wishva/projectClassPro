@@ -1,7 +1,7 @@
 <!-- Sidebar Start -->
 <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-secondary navbar-dark">
-                <a href="index.php" class="navbar-brand mx-4 mb-3" >
+                <a href="admin.php" class="navbar-brand mx-4 mb-3" >
                     <h3 id='templateHeader' ><i class="fa fa-building me-2" ></i>ABC Company</h3>
                 </a>
                 <div class="d-flex align-items-center ms-4 mb-4">
